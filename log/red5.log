@@ -1,18 +1,18 @@
-2015-12-13 21:29:16,928 [main] INFO  org.red5.server.Launcher - Red5 Server 1.0.7-SNAPSHOT (https://github.com/Red5)
-2015-12-13 21:29:17,096 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@4bec1f0c: startup date [Sun Dec 13 21:29:17 CST 2015]; root of context hierarchy
-2015-12-13 21:29:17,125 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5.xml]
-2015-12-13 21:29:17,322 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [jee-container.xml]
-2015-12-13 21:29:17,492 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
-2015-12-13 21:29:17,543 [main] INFO  o.r.spring.Red5ApplicationContext - setApplicationContext: org.springframework.context.support.FileSystemXmlApplicationContext@4bec1f0c: startup date [Sun Dec 13 21:29:17 CST 2015]; root of context hierarchy
-2015-12-13 21:29:17,543 [main] INFO  o.r.spring.Red5ApplicationContext - Red5ApplicationContext init
-2015-12-13 21:29:17,545 [main] INFO  o.r.spring.Red5ApplicationContext - Refreshing ApplicationContext 'red5.common': startup date [Sun Dec 13 21:29:17 CST 2015]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@4bec1f0c
-2015-12-13 21:29:17,547 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5-common.xml]
-2015-12-13 21:29:17,685 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
-2015-12-13 21:29:17,759 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
-2015-12-13 21:29:17,815 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2015-12-13 21:29:17,815 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.2 created.
-2015-12-13 21:29:17,816 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
-2015-12-13 21:29:17,818 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'Red5_Scheduler' with instanceId 'NON_CLUSTERED'
+2015-12-17 21:21:25,432 [main] INFO  org.red5.server.Launcher - Red5 Server 1.0.7-SNAPSHOT (https://github.com/Red5)
+2015-12-17 21:21:25,590 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@4bec1f0c: startup date [Thu Dec 17 21:21:25 CST 2015]; root of context hierarchy
+2015-12-17 21:21:25,630 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5.xml]
+2015-12-17 21:21:25,813 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [jee-container.xml]
+2015-12-17 21:21:25,967 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
+2015-12-17 21:21:26,015 [main] INFO  o.r.spring.Red5ApplicationContext - setApplicationContext: org.springframework.context.support.FileSystemXmlApplicationContext@4bec1f0c: startup date [Thu Dec 17 21:21:25 CST 2015]; root of context hierarchy
+2015-12-17 21:21:26,015 [main] INFO  o.r.spring.Red5ApplicationContext - Red5ApplicationContext init
+2015-12-17 21:21:26,018 [main] INFO  o.r.spring.Red5ApplicationContext - Refreshing ApplicationContext 'red5.common': startup date [Thu Dec 17 21:21:26 CST 2015]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@4bec1f0c
+2015-12-17 21:21:26,019 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5-common.xml]
+2015-12-17 21:21:26,155 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
+2015-12-17 21:21:26,226 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2015-12-17 21:21:26,246 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2015-12-17 21:21:26,247 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.2.2 created.
+2015-12-17 21:21:26,248 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2015-12-17 21:21:26,249 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.2) 'Red5_Scheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -20,123 +20,123 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 32 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2015-12-13 21:29:17,818 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'Red5_Scheduler' initialized from the specified file : '/home/shaalx/GOPATH/src/github.com/shaalx/red5-server/conf/quartz.properties'
-2015-12-13 21:29:17,818 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.2
-2015-12-13 21:29:17,819 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler Red5_Scheduler_$_NON_CLUSTERED started.
-2015-12-13 21:29:17,838 [main] INFO  o.s.r.rmi.RmiRegistryFactoryBean - Creating new RMI registry
-2015-12-13 21:29:18,212 [main] INFO  o.s.j.s.ConnectorServerFactoryBean - JMX connector server started: javax.management.remote.rmi.RMIConnectorServer@50b5ac82
-2015-12-13 21:29:18,596 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
-2015-12-13 21:29:18,600 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'org.springframework.jmx.support.ConnectorServerFactoryBean#0' has been autodetected for JMX exposure
-2015-12-13 21:29:18,604 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'schedulingService' has been autodetected for JMX exposure
-2015-12-13 21:29:18,605 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'clientBroadcastStream' has been autodetected for JMX exposure
-2015-12-13 21:29:18,819 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'schedulingService': registering with JMX server as MBean [org.red5.server:name=schedulingService,type=QuartzSchedulingService]
-2015-12-13 21:29:18,824 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'org.springframework.jmx.support.ConnectorServerFactoryBean#0': registering with JMX server as MBean [org.red5.server:name=org.springframework.jmx.support.ConnectorServerFactoryBean#0,type=RMIConnectorServer]
-2015-12-13 21:29:18,839 [main] INFO  o.r.spring.Red5ApplicationContext - setApplicationContext: org.springframework.context.support.FileSystemXmlApplicationContext@4bec1f0c: startup date [Sun Dec 13 21:29:17 CST 2015]; root of context hierarchy
-2015-12-13 21:29:18,840 [main] INFO  o.r.spring.Red5ApplicationContext - Red5ApplicationContext init
-2015-12-13 21:29:18,840 [main] INFO  o.r.spring.Red5ApplicationContext - Refreshing ApplicationContext 'red5.core': startup date [Sun Dec 13 21:29:18 CST 2015]; parent: ApplicationContext 'red5.common'
-2015-12-13 21:29:18,842 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5-core.xml]
-2015-12-13 21:29:18,942 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
-2015-12-13 21:29:19,015 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP will be bound to [0.0.0.0:1935]
-2015-12-13 21:29:19,017 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP Mina Transport Settings
+2015-12-17 21:21:26,250 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'Red5_Scheduler' initialized from the specified file : '/home/shaalx/GOPATH/src/github.com/shaalx/red5-server/conf/quartz.properties'
+2015-12-17 21:21:26,250 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.2.2
+2015-12-17 21:21:26,250 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler Red5_Scheduler_$_NON_CLUSTERED started.
+2015-12-17 21:21:26,269 [main] INFO  o.s.r.rmi.RmiRegistryFactoryBean - Creating new RMI registry
+2015-12-17 21:21:26,632 [main] INFO  o.s.j.s.ConnectorServerFactoryBean - JMX connector server started: javax.management.remote.rmi.RMIConnectorServer@50b5ac82
+2015-12-17 21:21:27,004 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2015-12-17 21:21:27,007 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'org.springframework.jmx.support.ConnectorServerFactoryBean#0' has been autodetected for JMX exposure
+2015-12-17 21:21:27,009 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'schedulingService' has been autodetected for JMX exposure
+2015-12-17 21:21:27,010 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'clientBroadcastStream' has been autodetected for JMX exposure
+2015-12-17 21:21:27,196 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'schedulingService': registering with JMX server as MBean [org.red5.server:name=schedulingService,type=QuartzSchedulingService]
+2015-12-17 21:21:27,198 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'org.springframework.jmx.support.ConnectorServerFactoryBean#0': registering with JMX server as MBean [org.red5.server:name=org.springframework.jmx.support.ConnectorServerFactoryBean#0,type=RMIConnectorServer]
+2015-12-17 21:21:27,206 [main] INFO  o.r.spring.Red5ApplicationContext - setApplicationContext: org.springframework.context.support.FileSystemXmlApplicationContext@4bec1f0c: startup date [Thu Dec 17 21:21:25 CST 2015]; root of context hierarchy
+2015-12-17 21:21:27,206 [main] INFO  o.r.spring.Red5ApplicationContext - Red5ApplicationContext init
+2015-12-17 21:21:27,206 [main] INFO  o.r.spring.Red5ApplicationContext - Refreshing ApplicationContext 'red5.core': startup date [Thu Dec 17 21:21:27 CST 2015]; parent: ApplicationContext 'red5.common'
+2015-12-17 21:21:27,212 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5-core.xml]
+2015-12-17 21:21:27,292 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
+2015-12-17 21:21:27,351 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP will be bound to [0.0.0.0:1935]
+2015-12-17 21:21:27,352 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP Mina Transport Settings
 Acceptor style: default I/O threads: 16
 TCP no-delay: true keep-alive: false
-2015-12-13 21:29:19,058 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Traffic class modification is disabled
-2015-12-13 21:29:19,059 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Send buffer size: 65536 recv buffer size: 65536 so linger: -1 traffic class: 0
-2015-12-13 21:29:19,114 [main] INFO  org.red5.server.ContextLoader - ContextLoader init
-2015-12-13 21:29:19,117 [main] INFO  org.red5.server.ContextLoader - Loading: default.context = ${red5.root}/webapps/red5-default.xml => /home/shaalx/GOPATH/src/github.com/shaalx/red5-server/webapps/red5-default.xml
-2015-12-13 21:29:19,119 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@60df60da: startup date [Sun Dec 13 21:29:19 CST 2015]; parent: ApplicationContext 'red5.common'
-2015-12-13 21:29:19,120 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/home/shaalx/GOPATH/src/github.com/shaalx/red5-server/webapps/red5-default.xml]
-2015-12-13 21:29:19,249 [main] INFO  org.red5.server.Context - Setting parent bean factory as core
-2015-12-13 21:29:19,254 [main] INFO  org.red5.server.tomcat.WarDeployer - War deployer service created
-2015-12-13 21:29:19,257 [main] INFO  org.red5.server.tomcat.WarDeployer - Starting WarDeployer
-2015-12-13 21:29:19,272 [main] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars without app start
-2015-12-13 21:29:19,400 [main] INFO  org.red5.server.tomcat.TomcatLoader - Loading tomcat
-2015-12-13 21:29:19,401 [main] INFO  org.red5.server.tomcat.TomcatLoader - Server root: /home/shaalx/GOPATH/src/github.com/shaalx/red5-server
-2015-12-13 21:29:19,401 [main] INFO  org.red5.server.tomcat.TomcatLoader - Config root: /home/shaalx/GOPATH/src/github.com/shaalx/red5-server/conf
-2015-12-13 21:29:19,439 [main] INFO  org.red5.server.tomcat.TomcatLoader - Application root: /home/shaalx/GOPATH/src/github.com/shaalx/red5-server/webapps
-2015-12-13 21:29:19,608 [main] INFO  org.red5.server.tomcat.TomcatLoader - Starting Tomcat servlet engine
-2015-12-13 21:29:19,859 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
-2015-12-13 21:29:19,890 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-5080"]
-2015-12-13 21:29:19,901 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
-2015-12-13 21:29:19,924 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
-2015-12-13 21:29:19,924 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.0.28
-2015-12-13 21:29:20,095 [0.0.0.0-startStop-1] INFO  o.a.catalina.startup.ContextConfig - No global web.xml found
-2015-12-13 21:29:28,774 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/] - No Spring WebApplicationInitializer types detected on classpath
-2015-12-13 21:29:28,840 [0.0.0.0-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2015-12-13 21:29:33,345 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/live] - No Spring WebApplicationInitializer types detected on classpath
-2015-12-13 21:29:33,404 [0.0.0.0-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2015-12-13 21:29:39,086 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/chat] - No Spring WebApplicationInitializer types detected on classpath
-2015-12-13 21:29:39,140 [0.0.0.0-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2015-12-13 21:29:43,094 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/vod] - No Spring WebApplicationInitializer types detected on classpath
-2015-12-13 21:29:43,159 [0.0.0.0-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2015-12-13 21:29:49,046 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/oflaDemo] - No Spring WebApplicationInitializer types detected on classpath
-2015-12-13 21:29:49,181 [0.0.0.0-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2015-12-13 21:29:52,883 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/installer] - No Spring WebApplicationInitializer types detected on classpath
-2015-12-13 21:29:52,917 [0.0.0.0-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2015-12-13 21:29:52,931 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-5080"]
-2015-12-13 21:29:52,942 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized:  path: /home/shaalx/GOPATH/src/github.com/shaalx/red5-server/webapps/root/
-2015-12-13 21:29:52,944 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /live path: /home/shaalx/GOPATH/src/github.com/shaalx/red5-server/webapps/live/
-2015-12-13 21:29:52,946 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /chat path: /home/shaalx/GOPATH/src/github.com/shaalx/red5-server/webapps/chat/
-2015-12-13 21:29:52,947 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /vod path: /home/shaalx/GOPATH/src/github.com/shaalx/red5-server/webapps/vod/
-2015-12-13 21:29:52,950 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /oflaDemo path: /home/shaalx/GOPATH/src/github.com/shaalx/red5-server/webapps/oflaDemo/
-2015-12-13 21:29:52,957 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /installer path: /home/shaalx/GOPATH/src/github.com/shaalx/red5-server/webapps/installer/
-2015-12-13 21:29:52,962 [main] INFO  org.red5.server.tomcat.TomcatLoader - Dedicated RTMPT server configuration was not specified
-2015-12-13 21:29:52,962 [Launcher:] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Sun Dec 13 21:29:52 CST 2015]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@60df60da
-2015-12-13 21:29:52,964 [main] INFO  org.red5.server.ContextLoader - JEE server was found: TomcatLoader [serviceEngineName=red5Engine]
-2015-12-13 21:29:52,972 [Launcher:/vod] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Sun Dec 13 21:29:52 CST 2015]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@60df60da
-2015-12-13 21:29:52,972 [Launcher:/chat] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Sun Dec 13 21:29:52 CST 2015]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@60df60da
-2015-12-13 21:29:52,973 [main] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin ctor
-2015-12-13 21:29:52,974 [Launcher:/vod] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
-2015-12-13 21:29:52,975 [main] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin start
-2015-12-13 21:29:52,975 [Launcher:] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
-2015-12-13 21:29:52,975 [Launcher:/chat] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
-2015-12-13 21:29:52,975 [main] INFO  o.red5.server.plugin.PluginLauncher - Loaded plugin: org.red5.net.websocket.WebSocketPlugin
-2015-12-13 21:29:52,984 [Launcher:/live] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Sun Dec 13 21:29:52 CST 2015]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@60df60da
-2015-12-13 21:29:52,987 [Launcher:/live] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
-2015-12-13 21:29:52,994 [Launcher:/oflaDemo] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Sun Dec 13 21:29:52 CST 2015]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@60df60da
-2015-12-13 21:29:52,996 [Launcher:/oflaDemo] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
-2015-12-13 21:29:53,002 [Launcher:/installer] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Sun Dec 13 21:29:53 CST 2015]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@60df60da
-2015-12-13 21:29:53,004 [Launcher:/installer] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
-2015-12-13 21:29:53,021 [main] INFO  o.r.n.websocket.WebSocketTransport - WebSocket will be bound to [0.0.0.0:8081]
-2015-12-13 21:29:53,058 [main] INFO  o.r.n.websocket.WebSocketTransport - started  websocket transport
-2015-12-13 21:29:53,090 [Launcher:] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
-2015-12-13 21:29:53,100 [Launcher:/vod] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
-2015-12-13 21:29:53,104 [Launcher:/live] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
-2015-12-13 21:29:53,117 [Launcher:/installer] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
-2015-12-13 21:29:53,121 [Launcher:/vod] INFO  org.red5.server.Context - Setting parent bean factory as core
-2015-12-13 21:29:53,121 [Launcher:/chat] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
-2015-12-13 21:29:53,123 [Launcher:] INFO  org.red5.server.Context - Setting parent bean factory as core
-2015-12-13 21:29:53,127 [Launcher:/oflaDemo] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
-2015-12-13 21:29:53,128 [Launcher:/installer] INFO  org.red5.server.Context - Setting parent bean factory as core
-2015-12-13 21:29:53,133 [Launcher:/live] INFO  org.red5.server.Context - Setting parent bean factory as core
-2015-12-13 21:29:53,141 [Launcher:/oflaDemo] INFO  org.red5.server.Context - Setting parent bean factory as core
-2015-12-13 21:29:53,155 [Launcher:/installer] INFO  org.red5.server.scope.WebScope - Set server [Server@e30a611map[[empty]]]
-2015-12-13 21:29:53,153 [Launcher:] INFO  org.red5.server.scope.WebScope - Set server [Server@e30a611map[[empty]]]
-2015-12-13 21:29:53,159 [Launcher:/live] INFO  org.red5.server.scope.WebScope - Set server [Server@e30a611map[[empty]]]
-2015-12-13 21:29:53,160 [Launcher:/oflaDemo] INFO  org.red5.server.scope.WebScope - Set server [Server@e30a611map[[empty]]]
-2015-12-13 21:29:53,165 [Launcher:/chat] INFO  org.red5.server.Context - Setting parent bean factory as core
-2015-12-13 21:29:53,170 [Launcher:] INFO  org.red5.server.scope.Scope - Scope null name reset to:  disallowed
-2015-12-13 21:29:53,173 [Launcher:/vod] INFO  org.red5.server.scope.WebScope - Set server [Server@e30a611map[[empty]]]
-2015-12-13 21:29:53,174 [Launcher:/oflaDemo] INFO  org.red5.server.Server - Add mapping global: default host:  context: oflaDemo
-2015-12-13 21:29:53,174 [Launcher:/live] INFO  org.red5.server.Server - Add mapping global: default host:  context: live
-2015-12-13 21:29:53,174 [Launcher:/vod] INFO  org.red5.server.Server - Add mapping global: default host:  context: vod
-2015-12-13 21:29:53,174 [Launcher:/oflaDemo] INFO  org.red5.server.Server - Add mapping global: default host: localhost context: oflaDemo
-2015-12-13 21:29:53,175 [Launcher:/installer] INFO  org.red5.server.Server - Add mapping global: default host: localhost context: installer
-2015-12-13 21:29:53,178 [Launcher:/oflaDemo] INFO  org.red5.server.Server - Add mapping global: default host: localhost:8088 context: oflaDemo
-2015-12-13 21:29:53,180 [Launcher:/chat] INFO  org.red5.server.scope.WebScope - Set server [Server@e30a611map['localhost/oflaDemo' -> 'default', '/oflaDemo' -> 'default', '/live' -> 'default', '/vod' -> 'default']]
-2015-12-13 21:29:53,180 [Launcher:/installer] INFO  org.red5.server.Server - Add mapping global: default host: localhost:5080 context: installer
-2015-12-13 21:29:53,180 [Launcher:/oflaDemo] INFO  org.red5.server.Server - Add mapping global: default host: 127.0.0.1:8088 context: oflaDemo
-2015-12-13 21:29:53,188 [Launcher:/oflaDemo] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appStart
-2015-12-13 21:29:53,189 [Launcher:] INFO  org.red5.server.Server - Add mapping global: default host:  context: null
-2015-12-13 21:29:53,183 [Launcher:/chat] INFO  org.red5.server.Server - Add mapping global: default host:  context: chat
-2015-12-13 21:29:53,191 [Launcher:] INFO  org.red5.server.scope.Scope - Invalid scope name, null is not allowed
-2015-12-13 21:29:53,194 [Launcher:] WARN  org.red5.server.scope.Scope - Invalid scope rejected: Scope [name=null, path=/default, type=APPLICATION, autoStart=true, creationTime=1450013393131, depth=1, enabled=true, running=false]
-2015-12-13 21:29:53,195 [Launcher:] WARN  org.red5.server.scope.Scope - Scope not added to parent
-2015-12-13 21:29:53,196 [Launcher:] INFO  org.red5.server.scope.WebScope - Webscope already registered
-2015-12-13 21:29:53,209 [Launcher:/chat] INFO  org.red5.server.scope.WebScope - Webscope already registered
-2015-12-13 21:29:53,212 [Launcher:/oflaDemo] INFO  org.red5.server.scope.WebScope - Webscope already registered
-2015-12-13 21:29:53,214 [Launcher:/installer] INFO  org.red5.server.scope.WebScope - Webscope already registered
-2015-12-13 21:29:53,215 [Launcher:/vod] INFO  org.red5.server.scope.WebScope - Webscope already registered
-2015-12-13 21:29:53,218 [Launcher:/live] INFO  org.red5.server.scope.WebScope - Webscope already registered
-2015-12-13 21:29:53,219 [Launcher:/installer] INFO  org.red5.server.service.Installer - Installer service created
-2015-12-13 21:30:19,259 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2015-12-17 21:21:27,394 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Traffic class modification is disabled
+2015-12-17 21:21:27,394 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Send buffer size: 65536 recv buffer size: 65536 so linger: -1 traffic class: 0
+2015-12-17 21:21:27,450 [main] INFO  org.red5.server.ContextLoader - ContextLoader init
+2015-12-17 21:21:27,453 [main] INFO  org.red5.server.ContextLoader - Loading: default.context = ${red5.root}/webapps/red5-default.xml => /home/shaalx/GOPATH/src/github.com/shaalx/red5-server/webapps/red5-default.xml
+2015-12-17 21:21:27,454 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@60df60da: startup date [Thu Dec 17 21:21:27 CST 2015]; parent: ApplicationContext 'red5.common'
+2015-12-17 21:21:27,456 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/home/shaalx/GOPATH/src/github.com/shaalx/red5-server/webapps/red5-default.xml]
+2015-12-17 21:21:27,571 [main] INFO  org.red5.server.Context - Setting parent bean factory as core
+2015-12-17 21:21:27,573 [main] INFO  org.red5.server.tomcat.WarDeployer - War deployer service created
+2015-12-17 21:21:27,577 [main] INFO  org.red5.server.tomcat.WarDeployer - Starting WarDeployer
+2015-12-17 21:21:27,578 [main] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars without app start
+2015-12-17 21:21:27,731 [main] INFO  org.red5.server.tomcat.TomcatLoader - Loading tomcat
+2015-12-17 21:21:27,733 [main] INFO  org.red5.server.tomcat.TomcatLoader - Server root: /home/shaalx/GOPATH/src/github.com/shaalx/red5-server
+2015-12-17 21:21:27,734 [main] INFO  org.red5.server.tomcat.TomcatLoader - Config root: /home/shaalx/GOPATH/src/github.com/shaalx/red5-server/conf
+2015-12-17 21:21:27,889 [main] INFO  org.red5.server.tomcat.TomcatLoader - Application root: /home/shaalx/GOPATH/src/github.com/shaalx/red5-server/webapps
+2015-12-17 21:21:28,015 [main] INFO  org.red5.server.tomcat.TomcatLoader - Starting Tomcat servlet engine
+2015-12-17 21:21:28,221 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2015-12-17 21:21:28,247 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-5080"]
+2015-12-17 21:21:28,257 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2015-12-17 21:21:28,281 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+2015-12-17 21:21:28,281 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.0.28
+2015-12-17 21:21:28,459 [0.0.0.0-startStop-1] INFO  o.a.catalina.startup.ContextConfig - No global web.xml found
+2015-12-17 21:21:35,840 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/] - No Spring WebApplicationInitializer types detected on classpath
+2015-12-17 21:21:35,938 [0.0.0.0-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2015-12-17 21:21:40,548 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/live] - No Spring WebApplicationInitializer types detected on classpath
+2015-12-17 21:21:40,595 [0.0.0.0-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2015-12-17 21:21:45,882 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/chat] - No Spring WebApplicationInitializer types detected on classpath
+2015-12-17 21:21:45,935 [0.0.0.0-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2015-12-17 21:21:49,837 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/vod] - No Spring WebApplicationInitializer types detected on classpath
+2015-12-17 21:21:49,880 [0.0.0.0-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2015-12-17 21:21:53,334 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/oflaDemo] - No Spring WebApplicationInitializer types detected on classpath
+2015-12-17 21:21:53,369 [0.0.0.0-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2015-12-17 21:21:56,923 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/installer] - No Spring WebApplicationInitializer types detected on classpath
+2015-12-17 21:21:57,001 [0.0.0.0-startStop-1] INFO  o.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2015-12-17 21:21:57,015 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-5080"]
+2015-12-17 21:21:57,024 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized:  path: /home/shaalx/GOPATH/src/github.com/shaalx/red5-server/webapps/root/
+2015-12-17 21:21:57,026 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /live path: /home/shaalx/GOPATH/src/github.com/shaalx/red5-server/webapps/live/
+2015-12-17 21:21:57,026 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /chat path: /home/shaalx/GOPATH/src/github.com/shaalx/red5-server/webapps/chat/
+2015-12-17 21:21:57,027 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /vod path: /home/shaalx/GOPATH/src/github.com/shaalx/red5-server/webapps/vod/
+2015-12-17 21:21:57,027 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /oflaDemo path: /home/shaalx/GOPATH/src/github.com/shaalx/red5-server/webapps/oflaDemo/
+2015-12-17 21:21:57,027 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /installer path: /home/shaalx/GOPATH/src/github.com/shaalx/red5-server/webapps/installer/
+2015-12-17 21:21:57,029 [main] INFO  org.red5.server.tomcat.TomcatLoader - Dedicated RTMPT server configuration was not specified
+2015-12-17 21:21:57,031 [main] INFO  org.red5.server.ContextLoader - JEE server was found: TomcatLoader [serviceEngineName=red5Engine]
+2015-12-17 21:21:57,051 [main] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin ctor
+2015-12-17 21:21:57,053 [main] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin start
+2015-12-17 21:21:57,053 [main] INFO  o.red5.server.plugin.PluginLauncher - Loaded plugin: org.red5.net.websocket.WebSocketPlugin
+2015-12-17 21:21:57,066 [Launcher:/vod] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Thu Dec 17 21:21:57 CST 2015]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@60df60da
+2015-12-17 21:21:57,074 [Launcher:] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Thu Dec 17 21:21:57 CST 2015]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@60df60da
+2015-12-17 21:21:57,068 [Launcher:/live] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Thu Dec 17 21:21:57 CST 2015]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@60df60da
+2015-12-17 21:21:57,076 [main] INFO  o.r.n.websocket.WebSocketTransport - WebSocket will be bound to [0.0.0.0:8081]
+2015-12-17 21:21:57,076 [Launcher:/chat] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Thu Dec 17 21:21:57 CST 2015]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@60df60da
+2015-12-17 21:21:57,076 [Launcher:/oflaDemo] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Thu Dec 17 21:21:57 CST 2015]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@60df60da
+2015-12-17 21:21:57,092 [Launcher:/installer] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Thu Dec 17 21:21:57 CST 2015]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@60df60da
+2015-12-17 21:21:57,094 [Launcher:/oflaDemo] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2015-12-17 21:21:57,095 [Launcher:/chat] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2015-12-17 21:21:57,095 [Launcher:/installer] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2015-12-17 21:21:57,095 [Launcher:/live] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2015-12-17 21:21:57,095 [Launcher:] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2015-12-17 21:21:57,105 [Launcher:/vod] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2015-12-17 21:21:57,122 [main] INFO  o.r.n.websocket.WebSocketTransport - started  websocket transport
+2015-12-17 21:21:57,198 [Launcher:/vod] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2015-12-17 21:21:57,200 [Launcher:] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2015-12-17 21:21:57,209 [Launcher:/chat] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2015-12-17 21:21:57,209 [Launcher:/installer] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2015-12-17 21:21:57,217 [Launcher:/oflaDemo] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2015-12-17 21:21:57,218 [Launcher:/vod] INFO  org.red5.server.Context - Setting parent bean factory as core
+2015-12-17 21:21:57,221 [Launcher:/live] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2015-12-17 21:21:57,226 [Launcher:/oflaDemo] INFO  org.red5.server.Context - Setting parent bean factory as core
+2015-12-17 21:21:57,220 [Launcher:] INFO  org.red5.server.Context - Setting parent bean factory as core
+2015-12-17 21:21:57,228 [Launcher:/chat] INFO  org.red5.server.Context - Setting parent bean factory as core
+2015-12-17 21:21:57,229 [Launcher:/installer] INFO  org.red5.server.Context - Setting parent bean factory as core
+2015-12-17 21:21:57,234 [Launcher:/live] INFO  org.red5.server.Context - Setting parent bean factory as core
+2015-12-17 21:21:57,260 [Launcher:/vod] INFO  org.red5.server.scope.WebScope - Set server [Server@479c6682map[[empty]]]
+2015-12-17 21:21:57,279 [Launcher:] INFO  org.red5.server.scope.WebScope - Set server [Server@479c6682map[[empty]]]
+2015-12-17 21:21:57,280 [Launcher:] INFO  org.red5.server.scope.Scope - Scope null name reset to:  disallowed
+2015-12-17 21:21:57,280 [Launcher:/vod] INFO  org.red5.server.Server - Add mapping global: default host:  context: vod
+2015-12-17 21:21:57,287 [Launcher:] INFO  org.red5.server.Server - Add mapping global: default host:  context: null
+2015-12-17 21:21:57,290 [Launcher:] INFO  org.red5.server.scope.Scope - Invalid scope name, null is not allowed
+2015-12-17 21:21:57,291 [Launcher:] WARN  org.red5.server.scope.Scope - Invalid scope rejected: Scope [name=null, path=/default, type=APPLICATION, autoStart=true, creationTime=1450358517234, depth=1, enabled=true, running=false]
+2015-12-17 21:21:57,291 [Launcher:] WARN  org.red5.server.scope.Scope - Scope not added to parent
+2015-12-17 21:21:57,291 [Launcher:] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2015-12-17 21:21:57,293 [Launcher:/oflaDemo] INFO  org.red5.server.scope.WebScope - Set server [Server@479c6682map['/vod' -> 'default', '/' -> 'default']]
+2015-12-17 21:21:57,294 [Launcher:/live] INFO  org.red5.server.scope.WebScope - Set server [Server@479c6682map['/vod' -> 'default', '/' -> 'default']]
+2015-12-17 21:21:57,295 [Launcher:/installer] INFO  org.red5.server.scope.WebScope - Set server [Server@479c6682map['/vod' -> 'default', '/' -> 'default']]
+2015-12-17 21:21:57,296 [Launcher:/oflaDemo] INFO  org.red5.server.Server - Add mapping global: default host:  context: oflaDemo
+2015-12-17 21:21:57,298 [Launcher:/installer] INFO  org.red5.server.Server - Add mapping global: default host: localhost context: installer
+2015-12-17 21:21:57,298 [Launcher:/live] INFO  org.red5.server.Server - Add mapping global: default host:  context: live
+2015-12-17 21:21:57,298 [Launcher:/oflaDemo] INFO  org.red5.server.Server - Add mapping global: default host: localhost context: oflaDemo
+2015-12-17 21:21:57,299 [Launcher:/installer] INFO  org.red5.server.Server - Add mapping global: default host: localhost:5080 context: installer
+2015-12-17 21:21:57,299 [Launcher:/oflaDemo] INFO  org.red5.server.Server - Add mapping global: default host: localhost:8088 context: oflaDemo
+2015-12-17 21:21:57,300 [Launcher:/oflaDemo] INFO  org.red5.server.Server - Add mapping global: default host: 127.0.0.1:8088 context: oflaDemo
+2015-12-17 21:21:57,303 [Launcher:/oflaDemo] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appStart
+2015-12-17 21:21:57,306 [Launcher:/chat] INFO  org.red5.server.scope.WebScope - Set server [Server@479c6682map['localhost/oflaDemo' -> 'default', '/oflaDemo' -> 'default', '127.0.0.1:8088/oflaDemo' -> 'default', '/live' -> 'default', '/vod' -> 'default', '/' -> 'default', 'localhost:5080/installer' -> 'default', 'localhost/installer' -> 'default', 'localhost:8088/oflaDemo' -> 'default']]
+2015-12-17 21:21:57,314 [Launcher:/oflaDemo] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2015-12-17 21:21:57,314 [Launcher:/chat] INFO  org.red5.server.Server - Add mapping global: default host:  context: chat
+2015-12-17 21:21:57,315 [Launcher:/live] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2015-12-17 21:21:57,315 [Launcher:/vod] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2015-12-17 21:21:57,315 [Launcher:/installer] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2015-12-17 21:21:57,317 [Launcher:/installer] INFO  org.red5.server.service.Installer - Installer service created
+2015-12-17 21:21:57,354 [Launcher:/chat] INFO  org.red5.server.scope.WebScope - Webscope already registered
+2015-12-17 21:22:27,578 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start

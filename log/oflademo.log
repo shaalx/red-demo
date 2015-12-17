@@ -1,2 +1,2 @@
-2015-12-13 21:29:49,199 [0.0.0.0-startStop-1] DEBUG ROOT - Starting up context oflaDemo
-2015-12-13 21:29:53,214 [Launcher:/oflaDemo] INFO  org.red5.demos.oflaDemo.DemoService - oflaDemo DemoService created
+2015-12-17 21:21:53,377 [0.0.0.0-startStop-1] DEBUG ROOT - Starting up context oflaDemo
+2015-12-17 21:21:57,325 [Launcher:/oflaDemo] INFO  org.red5.demos.oflaDemo.DemoService - oflaDemo DemoService created
