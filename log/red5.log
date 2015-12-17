@@ -140,3 +140,11 @@ TCP no-delay: true keep-alive: false
 2015-12-17 21:21:57,317 [Launcher:/installer] INFO  org.red5.server.service.Installer - Installer service created
 2015-12-17 21:21:57,354 [Launcher:/chat] INFO  org.red5.server.scope.WebScope - Webscope already registered
 2015-12-17 21:22:27,578 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2015-12-17 21:27:15,905 [RTMPConnectionExecutor-1] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:0
+2015-12-17 21:27:15,905 [RTMPConnectionExecutor-1] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appConnect
+2015-12-17 21:27:15,978 [RTMPConnectionExecutor-3] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@21d09db7 new: org.red5.server.stream.ClientBroadcastStream@21d09db7
+2015-12-17 21:27:15,978 [RTMPConnectionExecutor-3] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: red5StreamDemo
+2015-12-17 21:27:15,985 [RTMPConnectionExecutor-3] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:publish c-ip:127.0.0.1 x-sname:75bc63c7-2bc7-4fbb-8c06-00257dcd9b4d x-name:red5StreamDemo
+2015-12-17 21:28:19,153 [NioProcessor-2] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:stream x-event:unpublish c-ip:127.0.0.1 cs-bytes:438285 sc-bytes:3552 x-sname:75bc63c7-2bc7-4fbb-8c06-00257dcd9b4d x-file-length:63 x-name:red5StreamDemo
+2015-12-17 21:28:19,157 [NioProcessor-2] INFO  org.red5.demos.oflaDemo.Application - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:0
+2015-12-17 21:28:19,158 [NioProcessor-2] INFO  org.red5.demos.oflaDemo.Application - oflaDemo appDisconnect
